@@ -49,10 +49,10 @@ public class Message {
 
     public void decodeMessage() {
         if ("Atreides".equals(house)) {
-            // Decodificați mesajele de la Atreides
+            // Decodifica mesajele de la Atreides
             message = message.replace("Jbppf", "Messi");
         } else if ("Harkonnen".equals(house)) {
-            // Decodificați mesajele de la Harkonnen
+            // Decodifica mesajele de la Harkonnen
             message = message.replace("Oguuk", "Messi");
         }
     }
